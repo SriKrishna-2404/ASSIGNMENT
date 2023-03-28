@@ -1,9 +1,9 @@
-
 #include <stdio.h>
+#include <conio.h>
 int main() 
 {
     char c;
-    printf("Enter a character: ");
+    printf(" krishna Enter a character: ");
     scanf("%c", &c);
 
     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
