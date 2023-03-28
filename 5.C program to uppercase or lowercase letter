@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+int main() 
+{
+char ch;
+printf("\nkrishna Enter The Character : ");
+scanf("%c", &ch);
+if (ch >= 'A' && ch <= 'Z')
+printf("Character is Upper Case Letters");
+else
+printf("Character is lowerCase Letters");
+return 0;
+}
